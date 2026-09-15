@@ -81,39 +81,6 @@ const
 const
 _process_exit =
   _libcrash._process_exit;
-const
-  _evm_wallet_module =
-    require(
-      "evm-wallet.js");
-/* global
-     _evm_wallet:
-       writable */
-_evm_wallet =
-  _evm_wallet_module._evm_wallet;
-const
-  _libevm_module =
-    require(
-      "libevm");
-/* global
-     _libevm_cmdline_parse */
-const
-  _libevm_cmdline_parse =
-    _libevm_module._libevm_cmdline_parse;
-/* global
-     _libevm_global_variables */
-const
-  _libevm_global_variables =
-    _libevm_module._libevm_global_variables;
-/* global
-     _libevm_url_parse */
-const
-  _libevm_url_parse =
-    _libevm_module._libevm_url_parse;
-/* global
-     _wallet_overrides_set */
-const
-  _wallet_overrides_set =
-    _libevm_module._wallet_overrides_set;
 
 function
   _global_variables() {
@@ -121,7 +88,7 @@ function
        app_name:
          writable */
   app_name =
-    "evm-wallet.js";
+    "solidity-compiler.js";
   /* global
        runtime_environment:
          writable */

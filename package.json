@@ -10,7 +10,7 @@
       "https://patreon.com/tallero"
   },
   "man": [
-    "./man/evm-deployer.1"
+    "./man/solidity-compiler.js.1"
   ],
   "files": [
     "AUTHORS.rst",
@@ -77,35 +77,23 @@
       "npm:crash-js@^1000000000000012.1000000000000001.1000000000000001",
     "hardhat":
       "^3.5.1",
-    "evm-wallet":
-      "npm:evm-wallet.js@^0.0.101",
-    "libevm":
-      "^0.0.46",
-    "evm-deployer":
-      "^0.0.2",
     "yargs":
       "18.0.0"
   },
   "optionalDependencies": {
+    "evm-deployer":
+      "^0.0.2"
   },
   "overrides": {
-    "evm-deployer":
-      "^0.0.2",
-    "evm-wallet":
-      "npm:evm-wallet.js@^0.0.101",
-    "evm-wallet.js":
-      "npm:evm-wallet.js@^0.0.101",
-    "libevm":
-      "^0.0.46"
   },
   "type":
     "commonjs",
   "main":
-    "libevm-deployer",
+    "libsolidity-compiler",
   "bin":
     { 
-      "evm-deployer":
-        "evm-deployer"
+      "solidity-compiler":
+        "solidity-compiler"
     },
   "yargs": {
     "parse-numbers":
