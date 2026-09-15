@@ -1,6 +1,6 @@
 { "name": "solidity-compiler.js",
   "version":
-    "0.0.1",
+    "0.0.2",
   "description":
     "Solidity smart contracts deployer for Ethereum Virtual Machine (EVM) compatible blockchain networks.",
   "funding": {
@@ -18,9 +18,9 @@
     "README.md",
     "dist",
     "lib",
-    "libevm-deployer",
-    "libevm-deployer.webpack.config.js",
-    "evm-deployer",
+    "libsolidity-compiler",
+    "libsolidity-compiler.webpack.config.js",
+    "solidity-compiler",
     "fs-worker.webpack.config.js",
     "package.json",
     "serve.json",
@@ -33,16 +33,16 @@
     "ethereum"
   ],
   "homepage":
-    "https://github.com/themartiancompany/evm-deployer",
+    "https://github.com/themartiancompany/solidity-compiler",
   "bugs": {
     "url":
-      "https://github.com/themartiancompany/evm-deployer.js/issues"
+      "https://github.com/themartiancompany/solidity-compiler.js/issues"
   },
   "repository": {
     "type":
       "git",
     "url":
-      "git+https://github.com/themartiancompany/evm-deployer.js.git"
+      "git+https://github.com/themartiancompany/solidity-compiler.js.git"
   },
   "license":
     "AGPL-3.0-or-later",
@@ -56,7 +56,7 @@
   },
   "devDependencies": {
     "crash-js-webpack":
-      "^0.0.10",
+      "^0.0.78",
     "flatted":
       "^3.2.9",
     "eslint":
@@ -68,21 +68,21 @@
     "safely-serve":
       "^0.0.9",
     "webpack":
-      "^5.102.1",
+      "^5.109.2",
     "webpack-cli":
-      "^6.0.1"
+      "^7.2.2"
   },
   "dependencies": {
-    "crash-js":
-      "^0.1.111",
+    "libcrash-js":
+      "npm:crash-js@^1000000000000012.1000000000000001.1000000000000001",
     "hardhat":
       "^3.5.1",
-    "evm-wallet.js":
-      "^0.0.45",
+    "evm-wallet":
+      "npm:evm-wallet.js@^0.0.101",
     "libevm":
-      "^0.0.26",
+      "^0.0.46",
     "evm-deployer":
-      "^0.0.1",
+      "^0.0.2",
     "yargs":
       "18.0.0"
   },
@@ -90,13 +90,13 @@
   },
   "overrides": {
     "evm-deployer":
-      "^0.0.1",
+      "^0.0.2",
     "evm-wallet.js":
-      "^0.0.45",
+      "npm:evm-wallet.js@^0.0.101",
     "evm-chains-info":
-      "^0.0.22",
+      "^0.0.39",
     "libevm":
-      "^0.0.26"
+      "^0.0.46"
   },
   "type":
     "commonjs",
