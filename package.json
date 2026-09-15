@@ -1,6 +1,6 @@
 { "name": "solidity-compiler.js",
   "version":
-    "0.0.3",
+    "0.0.4",
   "description":
     "Solidity smart contracts deployer for Ethereum Virtual Machine (EVM) compatible blockchain networks.",
   "funding": {
@@ -95,8 +95,6 @@
       "npm:evm-wallet.js@^0.0.101",
     "evm-wallet.js":
       "npm:evm-wallet.js@^0.0.101",
-    "evm-chains-info":
-      "^0.0.39",
     "libevm":
       "^0.0.46"
   },
