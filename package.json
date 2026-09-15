@@ -81,8 +81,6 @@
       "18.0.0"
   },
   "optionalDependencies": {
-    "evm-deployer":
-      "^0.0.2"
   },
   "overrides": {
   },
